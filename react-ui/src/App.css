@@ -1,0 +1,9 @@
+.chart {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.bar {
+  background-color: steelblue;
+}
