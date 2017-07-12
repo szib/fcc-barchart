@@ -1,9 +1,41 @@
-.chart {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: flex-start;
+.chart rect {
+  fill: steelblue;
 }
 
-.bar {
-  background-color: steelblue;
+.axis text {
+  font: 16px sans-serif;
+  fill: black;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+.chart {
+  border: 1px solid black;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.title {
+  font-size: 36px;
+  fill: steelblue;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 3px 5px;
+  font: 1.2em sans-serif;
+  border: 1px solid black;
+  border-radius: 5px;
+  pointer-events: none;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  background-color: lightsteelblue;
 }
