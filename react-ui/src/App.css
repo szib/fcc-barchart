@@ -1,29 +1,31 @@
 .chart rect {
-  fill: steelblue;
+  fill: #ddd;
 }
 
 .axis text {
   font: 16px sans-serif;
-  fill: black;
+  fill: #ddd;
 }
 
 .axis path,
 .axis line {
   fill: none;
-  stroke: black;
+  stroke: #ddd;
   shape-rendering: crispEdges;
 }
 
 .chart {
-  border: 1px solid black;
+  background-color: #333;
+  border-radius: 10px;
   position: absolute;
   left: 10px;
   top: 10px;
+  box-shadow: 8px 8px 15px #111;
 }
 
 .title {
   font-size: 36px;
-  fill: steelblue;
+  fill: #ddd;
 }
 
 .tooltip {
@@ -37,5 +39,5 @@
   border-radius: 5px;
   pointer-events: none;
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
-  background-color: lightsteelblue;
+  background-color: #ddd;
 }

@@ -68,7 +68,6 @@ class App extends Component {
       let chart = d3.select('.chart')
           .attr('height', height + margin.top + margin.bottom)
           .attr('width', width + margin.left + margin.right)
-          .style('background-color', '#dddddd')
         .append('g')
           .attr('transform', 'translate(' + margin.left + "," + margin.top + ")" )
 
